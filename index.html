@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <link rel="stylesheet" href="grid.css">
+
+<body>
+
+  <div class="app-wrapper">
+  
+<!-- basic grid -->  
+  <section>
+    <h1>the grid</h1>
+    <h2>basic grid</h2>
+    
+    <div class="row">
+      <div class="column col-xs-12">
+        <div class="component">
+          col-xs-12
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="column col-xs-12 col-sm-6 col-lg-3">
+        <div class="component">
+          col-sx-12.col-sm-6.col-lg-3
+        </div>  
+      </div>
+      <div class="column col-xs-12 col-sm-6 col-lg-3">
+        <div class="component">
+          col-sx-12.col-sm-6.col-lg-3
+        </div>  
+      </div>
+      <div class="column col-xs-12 col-sm-6 col-lg-3">
+        <div class="component">
+          col-sx-12.col-sm-6.col-lg-3
+        </div>  
+      </div>
+      <div class="column col-xs-12 col-sm-6 col-lg-3">
+        <div class="component">
+          col-sx-12.col-sm-6.col-lg-3
+        </div>  
+      </div>
+    </div>  
+
+  
+    <div class="row">
+      <div class="column col-xs-12 col-md-4">
+        <div class="component">
+          col-sx-12.col-md-4
+        </div>  
+      </div>
+    
+      <div class="column col-xs-12 col-md-4">
+        <div class="component">
+          col-sx-12.col-md-4
+        </div>  
+      </div>
+    
+      <div class="column col-xs-12 col-md-4">
+        <div class="component">
+          col-sx-12.col-md-4
+        </div>  
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="column col-lg-9">
+        <div class="component">
+          col-lg-9
+        </div> 
+      </div>
+      <div class="column col-lg-3">
+        <div class="component">
+          col-lg-3
+        </div> 
+      </div>
+    </div>
+  </section>
+<!-- basic grid -->
+  
+<!-- centered content -->  
+  <section>
+    <h2>centered content</h2>
+    <div class="row">
+      <div class="column centered">
+        <div class="component">
+          centered content goes here...
+        </div>    
+      </div>
+    </div>
+    <div class="row">
+      <div class="column uncentered">
+        <div class="component">
+          uncentered content goes here...
+        </div>    
+      </div>
+    </div>
+  </section>
+<!-- centered content -->  
+  
+<!-- nested grids --> 
+  <section>
+    <h2>nested grids</h2>
+    <div class="row">
+      <div class="column col-xs-12">
+        <div class="row">
+          <div class="column col-xs-12">
+            <div class="component">.col-xs-12 nested</div>
+          </div>
+        </div>  
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="column col-xs-8">
+        <div class="row">
+          <div class="column col-xs-8">
+            <div class="component">.col-sx-8 nested</div>
+          </div>
+          <div class="column col-xs-4">
+            <div class="component">.col-sx-4 nested</div>
+          </div>
+        </div>  
+      </div>
+      <div class="column col-xs-4">
+        <div class="component">
+          col-sx-4
+        </div> 
+      </div>
+    </div>
+  </section>
+<!-- nested grids -->
+  
+<!-- collapsed grids --> 
+  <h2>collapsed/uncollapsed grid</h2> 
+  <div class="row collapse">
+    <div class="column col-xs-8">
+      <div class="component">.col-xs-8</div>
+    </div>
+    <div class="column col-xs-4">
+      <div class="component">.col-xs-4</div>
+    </div>
+  </div>
+<!-- collapsed grids -->  
+  
+
+  <footer>
+    Footer
+  </footer>
+</div>
+
+</body>
+</html>
