@@ -1,2 +1,2 @@
 # min-grid
-Simple grid with foundation-like class-names
+just a simple grid...
